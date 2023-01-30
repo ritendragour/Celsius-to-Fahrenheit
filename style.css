@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./WhatsApp\ Image\ 2023-01-30\ at\ 22.17.34.jpeg);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+h4{
+    color: rgb(24, 72, 230);
+    margin-top: 30px;
+}
